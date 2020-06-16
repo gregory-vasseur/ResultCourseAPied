@@ -10,7 +10,7 @@ class SecurityController extends AbstractController
 
     /**
      * Undocumented function
-     * @Route("/", name="login")
+     * @Route("/login", name="login")
      * @return Response
      */
     public function login() : Response
